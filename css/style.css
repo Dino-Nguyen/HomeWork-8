@@ -1,0 +1,119 @@
+body{
+    font-family: Roboto;
+    background: #373B44;
+    background: linear-gradient(to right, #f5f2d2, #f7c12e, rgb(211, 255, 129) );
+    align-items: center;
+    justify-content: center;
+}
+.khung {
+    display: block;
+    align-items: center;
+    
+}
+.menu {
+    color:rgb(255, 255, 255);
+    font-weight:bolder;
+    margin-top: 30px;
+}
+.tit {
+    font-size: 20px;
+}
+.list {
+    text-align: left;
+    display: inline-block;
+}
+li {
+    margin: 10px;
+}
+.js {
+    color: rgb(0, 0, 0);
+    border:2px solid rgb(102, 182, 119);
+    border-radius: 20px;
+    background-color: rgb(190, 252, 203);
+    
+}
+.note {
+    margin: 50px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    justify-content: center;
+    color:rgb(250, 250, 250);
+    font-style: italic;
+}
+.CAL{
+    width:320px;
+    height:520px;
+    background-color: #f7e3bf;
+    top:20px;
+    margin:0 auto;
+    position:relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.result{
+    height: 120px;
+}
+.old-r{
+    text-align: right;
+    height:20px;
+    margin:0 20px;
+    padding-top:20px;
+    font-size:15px;
+    color:#919191;
+}
+.output-r {
+    text-align: right;
+    height:60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+.key{
+    height: 400px;
+}
+.he_thong, .con_so, .trong {
+    width:50px;
+    height:50px;
+    margin: 15px;
+    float:left;
+    border-radius: 50%;
+    border: 2px solid rgba(245, 198, 112, 0.555);
+    font-weight:bold;
+    font-size:16px;
+}
+.trong {
+    background-color: #f7e3bf;
+    border: 0px;
+}
+.con_so{
+    background-color: #eaedef;
+}
+.he_thong, .con_so{
+    cursor: pointer;
+}
+.he_thong:active, .con_so:active {
+    font-size: 13px;
+}
+.he_thong:focus, .con_so:focus, .trong:focus{
+    outline: 0;
+}
+button:nth-child(4) {
+    font-size: 20px; 
+    background-color: #f08080;
+}
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #afab77;
+}
