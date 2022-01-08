@@ -30,7 +30,33 @@ li {
     border:2px solid rgb(102, 182, 119);
     border-radius: 20px;
     background-color: rgb(190, 252, 203);
-    
+    cursor:pointer;
+} 
+.js span {
+    transition:0.5s;
+    cursor:pointer;
+    -webkit-transform: scaleX(.3);
+  transform: scaleX(.3);
+  opacity: 0;
+  transition: all .3s
+}
+.js span:after{
+    position:absolute;
+    transition:0.5s;
+    padding: 10px;
+    z-index: 999;
+    padding: 10px;
+}
+.js:hover span {
+    padding: 0px;
+}
+.js:hover span:after {
+    padding: 10px;
+    right: 10px;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
+    transition: transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity
 }
 .note {
     margin: 50px;
